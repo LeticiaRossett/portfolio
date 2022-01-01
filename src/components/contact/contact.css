@@ -81,3 +81,7 @@ button{
     font-weight: 500;
     cursor: pointer;
 }
+
+.c-save-button{
+    padding: 15px;
+}

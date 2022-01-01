@@ -6,7 +6,7 @@ function Projects({ title, img, link }) {
         <div className='p'>
             <h3 className='p-picture-title'>{title}</h3>
             <a href={link} target="_blank" rel="noreferrer">
-                <img src={process.env.PUBLIC_URL`${img}`} alt={title} className='p-img' />
+                <img src={img} alt={title} className='p-img' />
             </a>
         </div>
     )

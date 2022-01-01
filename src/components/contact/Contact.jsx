@@ -2,30 +2,36 @@ import './contact.css'
 import GitHub from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import YouTube from "../../img/youtube.png";
-import { useRef } from "react";
+import { useRef, useState, useContext } from "react";
 import SaveFile from './SaveFile';
 import emailjs from 'emailjs-com';
-import { useState } from "react";
+import { ThemeContext } from "../../context";
+
 
 function Contact() {
     const formRef = useRef();
     const [done, setDone] = useState(false);
+    const theme = useContext(ThemeContext);
+    const darkMode = theme.state.darkMode;
 
     const handleSubmit = (e) => {
         e.preventDefault();
         emailjs
             .sendForm(
-                'service_extdlab',
-                'template_4kyhibx',
+                "service_extdlab",
+                "template_4kyhibx",
                 formRef.current,
-                'user_QqOUxUkysukRXid44bbr'
+                "user_QqOUxUkysukRXid44bbr"
             )
-            .then((result) => {
-                console.log(result.text);
-                setDone(true);
-            }, (error) => {
-                console.log(error.text);
-            });
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    setDone(true);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
     };
 
     return (
@@ -61,10 +67,10 @@ function Contact() {
                         for download below.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type='text' placeholder='Name' name='user_name' />
-                        <input type='text' placeholder='Subject' name='user_subject' />
-                        <input type='text' placeholder='Email' name='user_email' />
-                        <textarea rows='5' placeholder='Message' name='message' />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type='text' placeholder='Name' name='user_name' />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type='text' placeholder='Subject' name='user_subject' />
+                        <input style={{ backgroundColor: darkMode && "#333" }} type='text' placeholder='Email' name='user_email' />
+                        <textarea style={{ backgroundColor: darkMode && "#333" }} rows='5' placeholder='Message' name='message' />
                         <button>Submit</button>
                         {done && "Thank you!"}
                     </form>

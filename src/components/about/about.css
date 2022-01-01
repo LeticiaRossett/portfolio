@@ -16,7 +16,7 @@
      position: absolute;
      top: 50px;
      left: 50px;
-     background-color: rgb(66, 66, 66);
+     background-color:#50b081;
  }
 
 .a-right{
@@ -24,7 +24,7 @@
 }
 
 .a-card{
-    width: 60%;
+    width: 70%;
     height: 70vh;
     border-radius: 30px;
     position: relative;
@@ -54,4 +54,26 @@
 .a-desc{
     font-weight: 300;
     margin: 0px 20px;
+}
+
+@media screen and (max-width: 480px){
+    .a{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .a-left{
+        width: 100%;
+    }
+
+    .a-card{
+        height: 40vh;
+    }
+
+    .a-card.bg{
+        display: none;
+    }
+    .a-right{
+        padding: 20px;
+    }
 }

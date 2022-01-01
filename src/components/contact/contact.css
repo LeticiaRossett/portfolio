@@ -43,8 +43,8 @@
 }
 
 .c-icon{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-right: 20px;
 }
 
@@ -84,4 +84,31 @@ button{
 
 .c-save-button{
     padding: 15px;
+}
+
+@media screen and (max-width: 480px){
+    .c{
+        height: 70vh;
+    }
+
+    .c-wrapper{
+        flex-direction: column;
+    }
+
+    .c-title{
+        font-size: 30px;
+    }
+    
+    .c-info-item{
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .c-desc{
+        display: none;
+    }
+
+    form{
+        display: none;
+    }
 }

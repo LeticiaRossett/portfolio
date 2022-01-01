@@ -16,7 +16,6 @@ function About() {
                 </div>
             </div>
             <div className="a-right">
-                <hr />
                 <br /><br />
                 <h1 className="a-title">About Me</h1>
                 <p className="a-sub">
@@ -43,7 +42,6 @@ function About() {
                     <img src={Skills} alt="" className='a-skills-img' />
                 </div>
                 <br /><br />
-                <hr />
 
             </div>
         </div>

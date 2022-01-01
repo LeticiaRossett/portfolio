@@ -6,7 +6,7 @@ function ProjectList() {
     return (
         <div className='pl'>
             <div className="pl-texts">
-                <h1 className="pl-title">My Personal Projects</h1>
+                <h1 className="pl-title">My Projects</h1>
                 <p className='pl-desc'>
                     These are some of the projets I worked on since
                     my time in College.

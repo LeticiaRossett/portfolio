@@ -10,8 +10,10 @@
     "emailjs-com": "^3.2.0",
     "file": "^0.2.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.1.0",
     "react-dom": "^17.0.2",
     "react-download-link": "^2.3.0",
+    "react-modal": "^3.14.4",
     "react-scripts": "4.0.3",
     "saver": "^0.1.1",
     "web-vitals": "^1.0.1"

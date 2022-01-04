@@ -1,8 +1,10 @@
 import './ProjectList.css';
 import Projects from '../projects/Projects';
 import { projects } from "../../data.js";
+//import ProjectModal from '../projects/ProjectModal';
 
 function ProjectList() {
+
     return (
         <div className='pl'>
             <div className="pl-texts">
@@ -19,7 +21,8 @@ function ProjectList() {
                         title={item.title}
                         img={item.img}
                         link={item.link}
-                    />
+                        description={item.description}
+                    />,
                 )}
             </div>
         </div>

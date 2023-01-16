@@ -11,19 +11,20 @@ function Intro() {
                     <div className="i-title">
                         <div className="i-title-wrapper">
                             <div className="i-title-item">Computer Science Graduate</div>
-                            <div className="i-title-item">Junior Softwar Engineer</div>
-                            <div className="i-title-item">Content Creator</div>
+                            <div className="i-title-item">Software Engineer</div>
+                            <div className="i-title-item">Creator</div>
                             <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">Full-stack Engineer</div>
+                            <div className="i-title-item">Full-stack</div>
                             <div className="i-title-item">Outdoor Enthusiast</div>
                         </div>
                     </div>
                     <p className="i-description">
-                        I am a Junior Software Engineer with interestes in full-stack development. Here I share some of the side projects I've been working on.
+                        I am a Frontend Engineer with full-stack experience and a passion for transforming ideas into code.
+                        Here I share some of the side projects I've been working on.
                     </p>
                 </div>
                 <svg>
-                    //TODO
+                    // TODO
                 </svg>
             </div>
             <div className='i-right'>

@@ -8,7 +8,7 @@ function ProjectList() {
             <div className="pl-texts">
                 <h1 className="pl-title">My Projects</h1>
                 <p className='pl-desc'>
-                    These are some of the projets I worked on since
+                    These are some of the projects I worked on since
                     my time in College.
                 </p>
             </div>

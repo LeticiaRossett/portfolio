@@ -24,14 +24,15 @@ function About() {
                 </p>
                 <div className="a-desc">
                     <p>&emsp;I graduated in 2021 with a Bachelors degree in Computer Science. Ever since,
-                        I have worked as Junior Software Engineer and acquired a couple of new skills.
+                        I have worked as a Software Engineer where I learned new skills, and was able to solve
+                        real world problems.
                         What I love about my job is the satisfaction of solving problems,
-                        the continuous learning opportunities and the collaborative enviroment.
+                        the continuous learning opportunities and the collaborative environment.
                     </p>
                     <br />
                     <p>
-                        &emsp;Apart from work, I spend my time practicing different sports, playing with my dog
-                        Momo, learning new skills and creating content on my YouTube channel.
+                        &emsp;Apart from work, I spend my time traveling, playing with my dog
+                        Momo, working on personal projects, reading and exercising.
                     </p>
                     <br />
                 </div>
